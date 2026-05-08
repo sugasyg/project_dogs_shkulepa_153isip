@@ -1,0 +1,139 @@
+.LINKE {
+    color: skyblue; 
+    text-decoration: none;
+}
+.LINKE  a:visited {
+    color:black;
+    text-decoration: none;
+}
+.LINKE a:hover {
+    color: rgba(135, 194, 243, 0.966); 
+    text-decoration: none; 
+}
+.fon {
+    background-color: #E4F8FF;
+ background-image:url(фон.png);
+  background-size: cover; 
+  background-size: contain;  
+  background-size: 100% 100%
+}
+.fon1 {
+     background-color: #E4F8FF;
+}
+ a {
+    background-color:#B3DBE9;
+    font-family: helvetica;
+    text-decoration: none;
+}  
+.LINKE {
+    display:flex;
+    gap: 1px;
+}
+.photoss {
+  display:flex;
+   width:24px; height: 24px;   
+}
+.всё {
+ margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+    
+
+        /* контейнер для карточек */
+.cards-container {
+ max-width: 1400px;
+ margin: 0 auto;
+ }
+
+
+        /* стиль карточки */
+        .breed-card {
+            background: #B3DBE9;
+            border-radius: 32px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .card-content {
+            padding: 28px 28px 34px;
+        }
+
+        .breed-name {
+            font-size: 1.9rem;
+            font-weight: 800;
+            color: #E4F8FF;
+            margin-bottom: 16px;
+            letter-spacing: -0.3px;
+        }
+
+        .breed-description {
+            font-size: 1rem;
+            color: #E4F8FF;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .info-section {
+            margin: 18px 0;
+        }
+
+        .info-label {
+            color: #E4F8FF;
+            font-weight: 700;
+            font-size: 1rem;
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        .info-text {
+            color: #E4F8FF;
+            line-height: 1.48;
+            font-size: 0.95rem;
+        }
+
+        hr {
+            margin: 16px 0;
+            border: none;
+            height: 1px;
+            background: #B3DBE9;
+        }
+
+.contycard {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;       
+}
+.cards-container {
+  flex: 1;         
+  min-width: 200px; 
+}
+.breed-card {
+  flex: 1;         
+  min-width: 200px; 
+}
+.conew {
+    background-color:#B3DBE9;
+    font-family: helvetica;
+    text-decoration: none;
+}  
+.conew {
+ display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 50px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.po {
+    list-style: none;
+    padding: 100px;
+    margin: 0;
+    width: 100%;
+    background-color: #B3DBE9;
+    box-sizing: border-box; 
+  }
